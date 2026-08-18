@@ -1,3 +1,4 @@
+//Ejercicio 1
 import kotlin.math.PI
 fun circleArea(radius: Int): Double {
     return PI * radius * radius
@@ -7,8 +8,7 @@ fun main() {
     println(circleArea(2)) 
 }
 
-
-
+//Ejercicio 2
 import kotlin.math.PI
 fun circleArea(radius: Int): Double = PI * radius * radius
 
@@ -16,8 +16,7 @@ fun main() {
     println(circleArea(2))
 }
 
-
-
+//Ejercicio 3
 fun intervalInSeconds(hours: Int = 0, minutes: Int = 0, seconds: Int = 0) =
     ((hours * 60) + minutes) * 60 + seconds
 
@@ -30,6 +29,7 @@ fun main() {
 }
 
 
+//Ejercicio 4
 fun main() {
     val actions = listOf("title", "year", "author")
     val prefix = "https://example.com/book-info"
@@ -39,8 +39,7 @@ fun main() {
 }
 
 
-
-
+//Ejercicio 5
 fun repeatN(n: Int, action: () -> Unit) {
        for (i in 1..n) {
         action()
