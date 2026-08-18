@@ -1,3 +1,4 @@
+//Ejercicio 1
 data class Employee (val name: String, var salary: Int)
 fun employeeById(id: Int) = when(id) {
     1 -> Employee("Mary", 20)
