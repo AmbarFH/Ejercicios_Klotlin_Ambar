@@ -1,3 +1,4 @@
+//Ejercicio 1
 import kotlin.random.Random
 fun main() {
     val firstResult = Random.nextInt(6)
@@ -8,7 +9,7 @@ fun main() {
         println("you lose :c")
 }
 
-
+//Ejercicio 2
 fun main() {
     val button = "A"
 
@@ -23,8 +24,7 @@ fun main() {
     )
 }
 
-
-
+//Ejercicio 3
 fun main() {
     var pizzaSlices = 0
     while ( pizzaSlices < 7 ) {
@@ -36,7 +36,7 @@ fun main() {
 }
 
 
-
+//Ejercicio 4
 fun main() {
     for (number in 1..100) {
         println(
@@ -51,8 +51,7 @@ fun main() {
 }
 
 
-
-
+//Ejercicio 5
 fun main() {
     val words = listOf("dinosaur", "limousine", "magazine", "language")
     for (w in words) {
