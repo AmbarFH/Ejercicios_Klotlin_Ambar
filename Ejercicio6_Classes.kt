@@ -1,3 +1,4 @@
+//Ejercicio 1
 data class Employee(val name: String, var salary: Int)
 fun main() {
     val emp = Employee("Mary", 20)
@@ -6,10 +7,7 @@ fun main() {
     println(emp)
 }
 
-
-
-
-
+//Ejercicio 2
 data class Person(val name: Name, val address: Address, val ownsAPet: Boolean = true)
 data class Name(val first: String, val last: String)
 data class Address(val street: String, val city: City)
@@ -24,6 +22,7 @@ fun main() {
 }
 
 
+//Ejercicio 3
 import kotlin.random.Random
 
 data class Employee(val name: String, var salary: Int)
@@ -34,11 +33,6 @@ class RandomEmployeeGenerator(var minSalary: Int, var maxSalary: Int) {
         Employee(names.random(),
             Random.nextInt(from = minSalary, until = maxSalary))
 }
-
-
-
-
-
 
 fun main() {
     val empGen = RandomEmployeeGenerator(10, 30)
